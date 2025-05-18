@@ -2,8 +2,8 @@
 
 Queremos implementar un sistema que permita realizar la inscripción a materias de una Universidad. Ojo, prestar bien atención a las reglas del dominio, que pueden no ser exactamente iguales a las de tu universidad.
 
-En esta universidad de cada materia hay un único curso y sólo vamos a manejar  información de la inscripción actual, no nos interesan inscripciones anteriores. 
-En cambio, sí debemos conocer el historial de materias aprobadas de un estudiante. 
+En esta universidad de cada materia hay un único curso y sólo vamos a manejar información de la inscripción actual, no nos interesan inscripciones anteriores.
+En cambio, sí debemos conocer el historial de materias aprobadas de un estudiante.
 De cada materia aprobada hay que saber qué materia aprobó y con qué nota.
 
 Cada materia pertenece a una única carrera. Pero, un estudiante puede estar cursando distintas carreras. 
