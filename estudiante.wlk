@@ -49,7 +49,11 @@ class Estudiante {
     }
     
     method materiasDeSusCarreras() {
-        carreras.asList().forEach({carrera => carrera.materias().flatten()})
+        return carreras.asList().forEach({carrera => carrera.materias().flatten()})
+    }
+
+    method materiasEnListaDeEspera() {
+        return self.materiasDeSusCarreras().filter({materia => materia.estaEnListaDeEspera(self)})
     }
 
 }

@@ -84,4 +84,8 @@ class Materia {
         notasEstudiantes.add(self.nuevaNota(estudiante, nota))
     }
    
+    method estaEnListaDeEspera(estudiante) {
+        return listaDeEspera.contains(estudiante)
+    }
+
 }
